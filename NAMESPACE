@@ -11,6 +11,9 @@ S3method(coef, gcjc)
 S3method(coef, glcStruct)
 S3method(extractAIC, glc)
 S3method(extractAIC, gqc)
+S3method(extractAIC, gcjc)
+S3method(extractAIC, grg)
+S3method(mcovs, default)
 S3method(mcovs, formula)
 S3method(lines, gqcStruct)
 S3method(logLik, gcjc)
@@ -30,5 +33,6 @@ S3method(print, gcjc)
 S3method(print, gqc)
 S3method(scale, glc)
 S3method(scale, gqc)
+
 
 

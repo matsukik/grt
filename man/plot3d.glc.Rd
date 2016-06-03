@@ -5,7 +5,7 @@
 \description{plot the fitted 3D data set and linear decision boundary.
 }
 \usage{
-\method{plot3d}{glc}(x, fitdb = TRUE, initdb = FALSE, 
+\method{plot3d}{glc}(x, fitdb = TRUE, initdb = FALSE,
     lims = NULL, alpha = .5, \dots)
 
 }
@@ -24,10 +24,12 @@ This function produces a 3D scatter plot of data matrix in the \code{x} and (opt
 Daniel Adler, Oleg Nenadic and Walter Zucchini (2003) RGL: A R-library for 3D visualization with OpenGL
 }
 \examples{
+\dontrun{
 data(subjdemo_3d)
-fit.3dl <- glc(response ~ x + y + z, data=subjdemo_3d, 
+fit.3dl <- glc(response ~ x + y + z, data=subjdemo_3d,
     category=subjdemo_3d$category, zlimit=7)
 plot3d(fit.3dl)
+}
 }
 
 \seealso{

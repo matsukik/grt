@@ -5,8 +5,8 @@
 \description{plot the fitted 3D data set and quadratic decision boundaries.
 }
 \usage{
-\method{plot3d}{gqc}(x, fitdb = TRUE, initdb = FALSE, 
-    lims = NULL, npoints = 100, alpha = .5, 
+\method{plot3d}{gqc}(x, fitdb = TRUE, initdb = FALSE,
+    lims = NULL, npoints = 100, alpha = .5,
     fill = TRUE, smooth = FALSE, \dots)
 
 }
@@ -28,10 +28,12 @@ This function produces a 3D scatter plot of data matrix of \code{x} and (optiona
 Daniel Adler, Oleg Nenadic and Walter Zucchini (2003) RGL: A R-library for 3D visualization with OpenGL
 }
 \examples{
+\dontrun{
 data(subjdemo_3d)
-fit.3dq <- gqc(response ~ x + y + z, data=subjdemo_3d, 
+fit.3dq <- gqc(response ~ x + y + z, data=subjdemo_3d,
     category=subjdemo_3d$category, zlimit=7)
 plot3d(fit.3dq)
+}
 }
 
 \seealso{
