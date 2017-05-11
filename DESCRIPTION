@@ -4,7 +4,7 @@ Date: 2014-04-09
 Depends: R (>= 3.2.0), grDevices, graphics, stats, utils, MASS,
 Suggests: rgl, misc3d
 Author: Kazunaga Matsuki
-Maintainer: Kazunaga Matsuki <matsukk@mcmaster.ca>
+Maintainer: Andy Wills <andy@willslab.co.uk>
 Description: Functions to generate and analyze data for psychology
         experiments based on the General Recognition Theory.
 Title: General Recognition Theory
