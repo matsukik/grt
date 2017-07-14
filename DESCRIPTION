@@ -1,16 +1,12 @@
 Package: grt
-Version: 0.2
-Date: 2014-04-09
-Depends: R (>= 3.2.0), grDevices, graphics, stats, utils, MASS,
-Suggests: rgl, misc3d
+Type: Package
+Title: General Recognition Theory
+Version: 0.2.1
+Date: 2017-07-14
 Author: Kazunaga Matsuki
 Maintainer: Andy Wills <andy@willslab.co.uk>
-Description: Functions to generate and analyze data for psychology
-        experiments based on the General Recognition Theory.
-Title: General Recognition Theory
+Description: Functions to generate and analyze data for psychology experiments based on the General Recognition Theory.
 License: GPL (>= 2)
+Depends: R (>= 3.2.0), grDevices, graphics, stats, utils, MASS
+Suggests: rgl, misc3d
 LazyLoad: yes
-Packaged: 2014-04-09 18:07:21 UTC; k
-NeedsCompilation: no
-Repository: CRAN
-Date/Publication: 2014-04-10 15:20:06
