@@ -1,10 +1,15 @@
 Package: grt
 Type: Package
 Title: General Recognition Theory
-Version: 0.2.1
-Date: 2017-07-14
-Author: Kazunaga Matsuki
-Maintainer: Andy Wills <andy@willslab.co.uk>
+Version: 0.2.2
+Date: 2026-08-10
+Authors@R: c(person(given = "Kazunaga",
+                    family = "Matsuki",
+                    role = "aut"),
+             person(given = "Andy",
+                    family = "Wills",
+                    role = "cre",
+                    email = "andy@willslab.co.uk"))
 Description: Functions to generate and analyze data for psychology experiments based on the General Recognition Theory.
 License: GPL (>= 2)
 Depends: R (>= 3.2.0), grDevices, graphics, stats, utils, MASS
