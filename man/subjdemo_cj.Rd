@@ -8,9 +8,6 @@ Sample dataset of a categorization experiment with 2D conjunctive stimuli.
 \description{
 A sample two dimensional stimulus set and response data of a hypothetical participant in a two-category classification experiment involving 100 trials.
 }
-\usage{
-subjdemo_cj
-}
 \format{
   This data frame contains 100 rows and the following columns:
   \describe{
