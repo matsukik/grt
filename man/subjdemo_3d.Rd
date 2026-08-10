@@ -1,6 +1,7 @@
 % file grt/man/subjdemo_3d.Rd
 \name{subjdemo_3d}
 \alias{subjdemo_3d}
+\docType{data}
 \title{
 Sample dataset of a categorization experiment with 3D stimuli.
 }
