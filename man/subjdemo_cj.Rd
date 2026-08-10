@@ -1,6 +1,7 @@
 % file grt/man/subjdemo_cj.Rd
 \name{subjdemo_cj}
 \alias{subjdemo_cj}
+\docType{data}
 \title{
 Sample dataset of a categorization experiment with 2D conjunctive stimuli.
 }
