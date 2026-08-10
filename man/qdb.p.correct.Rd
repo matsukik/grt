@@ -11,7 +11,7 @@ qdb.p.correct(x, qdb, refpts = colMeans(x))
 \arguments{
 \item{x}{a vector or matrix containing the values of samples from one multivariate normal population.}
 \item{qdb}{object of class \code{gqcStruct} or a vector containing the values for \code{coeffs} and \code{bias} of an quadratic decision bound.}
-\item{refpts}{a numeric vector used as a reference point to determine the correct side of the \code{qdb} for classifying \code{x}. The \code{length(refpts)} should be equal to {ncol(x)}. Default to \code{colMeans(x)}. }
+\item{refpts}{a numeric vector used as a reference point to determine the correct side of the \code{qdb} for classifying \code{x}. The \code{length(refpts)} should be equal to \code{ncol(x)}. Default to \code{colMeans(x)}. }
 }
 \details{
 The function assumes that all the points specified in \code{x} belong to just one category.
