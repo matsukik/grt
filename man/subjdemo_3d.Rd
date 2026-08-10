@@ -8,9 +8,6 @@ Sample dataset of a categorization experiment with 3D stimuli.
 \description{
 A sample one dimensional stimulus set and response data of a hypothetical participant in a two-category classification experiment involving 500 trials.
 }
-\usage{
-subjdemo_3d
-}
 \format{
   This data frame contains 500 rows and the following columns:
   \describe{
